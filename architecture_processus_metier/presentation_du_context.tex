@@ -1,0 +1,126 @@
+\documentclass[a4paper,12pt,twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[]{graphicx}
+%================configuracões da pagina=========================
+
+\setlength{\paperwidth}{21cm}          % Largura da página
+\setlength{\paperheight}{29,7cm}       % Altura da página
+\setlength{\textwidth}{15.5cm}         % Largura do texto
+\setlength{\textheight}{24.6cm}        % Altura do texto
+\setlength{\topmargin}{-1.0cm}         % Margem superior da página = 1 polegada + valor atribuição.
+                                      % \setlenght{\topmargin}{0cm} dá 2.54cm de margem superior.
+\setlength{\oddsidemargin}{0.46cm}   % Margem esquerda = 1 polegada + valor
+\setlength{\evensidemargin}{0.46cm} 
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% 			CAPA DO TRABALHO ou Folha de rosto					 	 %%%%%%%%%%%%
+%a. Folha de rosto, contendo os seguintes itens:							
+%• Nome do aluno;
+%• Nome do orientador e coorientador, se houver;
+%• Data de início do Doutorado;
+%• Se for bolsista, nome da agência financiadora e data de início da bolsa;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{images/epsi_logo.jpg}
+  \vspace*{-0.3cm}
+\end{figure}
+
+\begin{center}
+{\large \rm \textbf {EPSI - L'école d'Ingénierie Informatique} \linebreak}
+{\large \rm \textbf {Bordeaux} \linebreak}
+{\large \rm \textbf {Cursus "Expert en Informatique et Système d’Information" inscrit au RNCP.} \linebreak}
+\end{center}
+
+\baselineskip 30pt
+
+\vspace*{0.3cm}
+
+\begin{center}
+{\LARGE \bfseries Mise en place de processus d'architecture processus métier pour une société bancaire}
+\end{center}
+
+\vspace*{1cm}
+
+\setcounter{footnote}{1}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\begin{center}
+{\sc  BOUMANS Jimmy
+\\}
+{\sc  DORVILLE Mathieu
+\\}
+{\sc  GAUTIER Florian
+\\}
+{\sc  LAERA Jérémie
+\\}
+\vspace*{0.3cm}
+
+\center{\rm  Lecteur:} \vspace*{-.5cm} \center{\sc TOIX Florian}
+\end{center}
+
+\setcounter{footnote}{1}
+
+\vspace*{2.8cm}
+
+\begin{flushleft}
+Date:  14/12/2020\\
+
+\end{flushleft}
+
+
+\baselineskip 17pt
+
+\vspace*{1.5cm}
+
+
+\vspace*{.05cm}
+
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+\setcounter{footnote}{1}
+
+\pagebreak
+
+\baselineskip 19pt
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% 	Capitulo 1	-	Introducao ao projeto, estado da arte		 %%%%%%%%%%%%
+%b. Descrição do projeto, contendo os seguintes itens:
+%• Objetivo científico;
+%• Estado da arte;
+%• Metodologia a ser utilizada;
+%• Resultados esperados;
+% –no mínimo 2 (duas) e no máximo 3 (três) páginas–;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+
+\newpage
+\section{Résumé}
+
+Notre projet s'articule autour de l'ambition d'automatiser le processus de demande de crédit pour un client auprès de sa banque. Nous nous plaçons dans le cas d'un client souhaitant demander un crédit pour trois vagues de montants;
+
+\begin{enumerate}
+ \item Un montant inférieur à 5000 euros.
+ \item Un montant situé entre 5000 et 15000 euros.
+ \item Un montant supérieur à 15000 euros.
+\end{enumerate}
+
+L'objectif pour notre POC est de démontrer l'intérêt pour les entreprises de mettre en place une telle solution. Un retour sur investissement doit pouvoir être perçu notamment en matière de capitalisation.  
+
+\section{Documents autre}
+ 
+Avec ce document explicatif, vous trouverez, ci-joint le powerpoint résumant notre contexte ainsi que notre exportation BPMN au format \emph{.bos}.
+
+
+
+\end{document}

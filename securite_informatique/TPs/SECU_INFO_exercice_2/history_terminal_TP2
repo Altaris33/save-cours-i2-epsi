@@ -1,0 +1,501 @@
+captain@captain ~/I2/securite_informatique/TPs/SECU_INFO_exercice_2 $ history
+   83  xrdb ~/.Xresources
+   84  nano .Xresources
+   85  xrdb ~/.Xresources
+   86  nano .Xresources
+   87  xrdb ~/.Xresources
+   88  nano .Xresources
+   89  xrdb ~/.Xresources
+   90  nano .Xresources
+   91  xrdb ~/.Xresources
+   92  nano .Xresources
+   93  xrdb ~/.Xresources
+   94  nano .Xresources
+   95  xrdb ~/.Xresources
+   96  clear
+   97  nano .Xresources
+   98  xrdb ~/.Xresources
+   99  clear
+  100  exit
+  101  wpa_gui
+  102  ls -lha
+  103  cd .local/
+  104  ls -lha
+  105  cd share/
+  106  ls -lha
+  107  mkdir fonts
+  108  cd fonts/
+  109  mkdir nerd_fonts
+  110  cd nerd_fonts/
+  111  ls
+  112  ls | grep "Hack"
+  113  ls
+  114  ls
+  115  ls
+  116  ls
+  117  ls
+  118  exit
+  119  pwd
+  120  nano .Xresources
+  121  exit
+  122  exit
+  123  ls -lha
+  124  lsd
+  125  lsd -lha
+  126  exa -l --icons
+  127  exit
+  128  poweroff
+  129  xprop
+  130  reboot
+  131  wpa_gui
+  132  nano .config/i3/config
+  133  nano .config/i3/config
+  134  exit
+  135  exit
+  136  ls -lha
+  137  exit
+  138  cd Downloads/
+  139  ls -lha
+  140  exit
+  141  wpa_gui
+  142  ls -lha
+  143  nano .bashrc
+  144  source .bashrc
+  145  exit
+  146  ls
+  147  rm notes2.txt
+  148  ls
+  149  cp notes2\ \(1\).txt I2/securite_informatique/TPs/
+  150  reboot
+  151  cd I2/
+  152  ls -lha
+  153  ideux
+  154  cd securite_informatique/
+  155  ls -lha
+  156  ls -lha
+  157  cd TPs/
+  158  ls
+  159  cd SECU_INFO_exercice_1/
+  160  ls
+  161  cat file.txt.crypt
+  162  which xrandr
+  163  sudo pacman -S xorg-xrandrù
+  164  sudo pacman -S xorg-xrandr
+  165  which xrandr
+  166  xrandr
+  167  xrandr
+  168  xrandr
+  169  sudo pacman -S alacritty
+  170  which alacritty
+  171  cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty/
+  172  cd
+  173  cd .config/
+  174  ls
+  175  mkdir alacritty
+  176  cp /usr/share/doc/alacritty/example/alacritty.yml ~/.config/alacritty/
+  177  ls
+  178  cd alacritty/
+  179  ls
+  180  nano alacritty.yml
+  181  ls -lha
+  182  reboot
+  183  man i3-sensible-terminal
+  184  printenv
+  185  ls -lha
+  186  nano .bashrc
+  187  xprop
+  188  printenv
+  189  wpa_gui
+  190  nano .config/i3/config
+  191  printenv
+  192  nano .bashrc
+  193  sudo printenv
+  194  sudo cat /etc/environment
+  195  sudo cat /etc/profile
+  196  sudo nano /etc/environment
+  197  ls -lha
+  198  locate .xinitrc
+  199  sudo pacman -S findutils
+  200  locate .xinitrc
+  201  which findutils
+  202  sudo pacman -S mlocate
+  203  which locate
+  204  locate .xinitrc
+  205  ls -lha
+  206  cat .bash_profile
+  207  cat .Xresources
+  208  export TERM=alacritty
+  209  reboot
+  210  printenv
+  211  exit
+  212  exit
+  213  exit
+  214  wpa_gui
+  215  printenv
+  216  export TERM=Alacritty
+  217  printenv
+  218  exit
+  219  ls -lha
+  220  exit
+  221  ls -lha
+  222  clear
+  223  xprop
+  224  sudo pacman -S spyder
+  225  xprop
+  226  ls -lha
+  227  nano .bashrc
+  228  source .bashrc
+  229  nano .bashrc
+  230  source .bashrc
+  231  reboot
+  232  nano .config/i3/config
+  233  nano .config/i3/config
+  234  ls -lha
+  235  ls -lha
+  236  reboot
+  237  wpa_gui
+  238  exit
+  239  exit
+  240  ls -lha
+  241  sl -lha
+  242  ls -lha
+  243  nano .bash_aliases
+  244  source .bash_aliases
+  245  ala_conf
+  246  ala_conf
+  247  ls -lha
+  248  ala_conf
+  249  sudo pacman -S feh
+  250  nano .bash_aliases
+  251  source .bash_aliases
+  252  which feh
+  253  ls
+  254  mkdir ImagesCaptain
+  255  ls
+  256  cd Downloads/
+  257  ls
+  258  rm Caskaydia\ Cove\ Regular\ Nerd\ Font\ Complete.ttf DejaVu\ Sans\ Mono\ Nerd\ Font\ Complete DejaVu\ Sans\ Mono\ Nerd\ Font\ Complete DejaVu\ Sans\ Mono\ Nerd\ Font\ Complete DejaVu\ Sans\ Mono\ Nerd\ Font\ Complete Hack\ Bold\ Italic\ Nerd\ Font\ Complete.ttf
+  259  mv pexels-jakub-novacek-924824.jpg wall_nova.jpg
+  260  ls
+  261  mv wall_nova.jpg ../ImagesCaptain/
+  262  cd
+  263  cd ImagesCaptain/
+  264  ls
+  265  cd
+  266  feh --bg-scale ~/ImagesCaptain/wall_nova.jpg
+  267  ala_conf
+  268  ala_conf
+  269  which compton
+  270  pacman -Ss compton
+  271  pacman -S picom
+  272  ala_conf
+  273  ala_conf
+  274  ala_conf
+  275  reboot
+  276  wpa_gui
+  277  nano .bash_aliases
+  278  source .bash_aliases
+  279  itrois_conf
+  280  ls -lha
+  281  cat .fehbg
+  282  reboot
+  283  cd AUR/
+  284  ls
+  285  git clone https://aur.archlinux.org/compton-tryone-git.git
+  286  git clone https://aur.archlinux.org/compton-tryone-git.git
+  287  ls
+  288  cd compton-tryone-git/
+  289  ls
+  290  makepkg -si
+  291  cd
+  292  which compton
+  293  ls -lha
+  294  ls -lha .config/
+  295  compton --active-opacity 0.8
+  296  cd AUR/
+  297  git clone https://aur.archlinux.org/compton-conf.git
+  298  ls
+  299  cd compton-conf/
+  300  ls
+  301  makepkg -si
+  302  cd ..
+  303  cd ..
+  304  wpa_gui
+  305  ala_conf
+  306  ala_conf
+  307  reboot
+  308  wpa_gui
+  309  exit
+  310  ideux
+  311  cd securite_informatique/
+  312  ls
+  313  cd TPs/
+  314  ls
+  315  cd SECU_INFO_exercice_1/
+  316  ls
+  317  touch decrypt.py
+  318  code decrypt.py
+  319  poweroff
+  320  locate anaconda
+  321  which conda
+  322  cat /etc/xdg/picom.conf.example
+  323  cd AUR/
+  324  ls
+  325  pacman -S https://aur.archlinux.org/picom-git.git
+  326  pacman -S https://aur.archlinux.org/picom-git.git
+  327  pacman -S https://aur.archlinux.org/picom-git.git
+  328  cat /etc/xdg/picom.conf.example
+  329  cd
+  330  picom -b
+  331  ls Downloads/
+  332  whici import
+  333  which import
+  334  wpa_gui
+  335  ideux
+  336  mkdir green_it_rse
+  337  cd green_it_rse/
+  338  touch green_it.md
+  339  code green_it.md
+  340  cd ../mémoire_pro/
+  341  ls
+  342  cd memoire/
+  343  ls
+  344  ls
+  345  cd images/
+  346  ls -lha
+  347  which teams
+  348  which trizen
+  349  cp /etc/xdg/picom.conf ~/.config/picom/
+  350  exit
+  351  ls -lha
+  352  cd .conda/
+  353  ls
+  354  cat environments.txt
+  355  source /home/captain/AUR/anaconda/pkg/anaconda/opt/anaconda/bin/activate
+  356  which sypder
+  357  which spyder
+  358  spyder ~/I2/securite_informatique/TPs/SECU_INFO_exercice_1/decrypt.py
+  359  python /home/captain/.vscode-oss/extensions/ms-python.python-2020.9.111407/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user
+  360  source /home/captain/AUR/anaconda/pkg/anaconda/opt/anaconda/bin/activate
+  361  spyder ~/I2/securite_informatique/TPs/SECU_INFO_exercice_1/decrypt.py
+  362  source /home/captain/AUR/anaconda/pkg/anaconda/opt/anaconda/bin/deactivate
+  363  which python
+  364  which python2
+  365  exit
+  366  pacman -S fish
+  367  exit
+  368  ideux
+  369  cd securite_informatique/
+  370  ls
+  371  cd TPs/
+  372  ls
+  373  cd SECU_INFO_exercice_1/
+  374  ls
+  375  exit
+  376  which emacs
+  377  pacman -S picom
+  378  pacman -Syu picom
+  379  which picom
+  380  mv ~/Downloads/cdc_logo.png I2/mémoire_pro/memoire/images/
+  381  cd .config/
+  382  ls
+  383  mkdir picom
+  384  nano picom/picom.conf
+  385  xprop
+  386  ls
+  387  nano i3/config
+  388  clear
+  389  cd
+  390  fish
+  391  ls -lha
+  392  which fish
+  393  compton -b
+  394  cd AUR/
+  395  ls
+  396  git clone https://github.com/tobi-wan-kenobi/bumblebee-status.git
+  397  ls
+  398  cd bumblebee-status/
+  399  ls -lha
+  400  cd ..
+  401  cp -a bumblebee-status/ ~/.config/
+  402  ls ~/.config/
+  403  cd
+  404  itrois_conf
+  405  pacman -S awesome-terminal-fonts
+  406  itrois_conf
+  407  itrois_conf
+  408  itrois_conf
+  409  itrois_conf
+  410  itrois_conf
+  411  itrois_conf
+  412  itrois_conf
+  413  itrois_conf
+  414  itrois_conf
+  415  itrois_conf
+  416  cat .fehbg
+  417  feh --bg-scale ImagesCaptain/ultraviolet.jpg
+  418  exit
+  419  wpa_gui
+  420  itrois_conf
+  421  itrois_conf
+  422  itrois_conf
+  423  itrois_conf
+  424  ls -lha
+  425  which iw
+  426  pacman -S iw
+  427  which netifaces
+  428  which pip
+  429  pip3 install netifaces
+  430  pip install netifaces
+  431  which xcwd
+  432  itrois_conf
+  433  cd AUR/
+  434  git clone https://aur.archlinux.org/xcwd-git.git
+  435  ls
+  436  cd xcwd-git/
+  437  makepkg -si
+  438  cd
+  439  pip install pygit2
+  440  easy_install netifaces
+  441  sudo easy_install netifaces
+  442  pip install python-tk
+  443  sudo pip install python-tk
+  444  pip install numpy
+  445  sudo pip install numpy
+  446  which bluez
+  447  pacman -S bluez
+  448  which bluez
+  449  pacman -S bluez-utils
+  450  which bluez
+  451  which bluetothctl
+  452  which bluetoothctl
+  453  ls -lha
+  454  lsmod | grep bluetooth
+  455  sudo modprobe -r btusb
+  456  sudo modprobe -btusb
+  457  sudo modprobe btusb
+  458  itrois_conf
+  459  sudo systemctl enable bluetooth.service
+  460  sudo systemctl start bluetooth.service
+  461  itrois_conf
+  462  cd AUR/
+  463  ls
+  464  cd anaconda/
+  465  cd
+  466  cd ana
+  467  cd AUR/
+  468  cd anaconda/
+  469  itrois_conf
+  470  itrois_conf
+  471  itrois_conf
+  472  poweroff
+  473  ls -lha
+  474  which include
+  475  exit
+  476  nano .config/alacritty/alacritty.yml
+  477  nano .bashrc
+  478  source .bashrc
+  479  ala_conf
+  480  ala_conf
+  481  nano .config/picom/picom.conf
+  482  sudo ls /usr/share/nano/
+  483  ls -lha
+  484  touch .nanorc
+  485  ls -lha
+  486  include /usr/share/nano/sh.nanorc
+  487  pacman -Ss include
+  488  exit
+  489  exit
+  490  ls -lha
+  491  exit
+  492  wpa_gui
+  493  ls -lha
+  494  itrois_conf
+  495  itrois_conf
+  496  ls -lha
+  497  poweroff
+  498  cd Downloads/
+  499  ls -lha
+  500  mv tmc_CRY01_TP_02.pdf ../I2/securite_informatique/TPs/
+  501  cd I
+  502  cd ../I2/securite_informatique/TPs/
+  503  ls
+  504  mkdir SECU_INFO_exercice_2
+  505  mv tmc_CRY01_TP_02.pdf  SECU_INFO_exercice_2/
+  506  cd SECU_INFO_exercice_2/
+  507  ls
+  508  touch TP_2_Livrable_JLAERA_XXXX.md
+  509  code TP_2_Livrable_JLAERA_XXXX.md
+  510  ls
+  511  openssl genrsa -aes256 -out jeje.key 2048
+  512  ls /usr/lib/ssh/
+  513  ls -lha
+  514  openssl rsa -in jeje.key -pubout -out jeje.pub
+  515  ls -lha
+  516  nano jeje_fichier.txt
+  517  openssl rsautl -encrypt -pubin -inkey public.pub -in jeje_fichier.txt -out jeje_fichier_crypt
+  518  ls -lha
+  519  cat jeje_fichier_crypt
+  520  ls -lha
+  521  openssl rsautl -decrypt -in chiffre_florian.crypt -out dechiffrey_florian.decrypt -inkey jeje.key
+  522  ls -lha
+  523  cat dechiffrey_florian.decrypt
+  524  nano jeje_sig_file.txt
+  525  openssl rsautl -in jeje_sig_file.txt -out jeje.sig -inkey jeje.key
+  526  ls -lha
+  527  openssl dgst -sha256 jeje_sig_file.txt
+  528  openssl dgst -sha256 -out jeje_file.sha256 jeje_fichier_crypt
+  529  mv jeje_fichier_crypt jeje_fichier.crypt
+  530*
+  531  ls
+  532  cat jeje_file.sha256
+  533  [1:47 PM] BOUMANS Jimmy
+  534
+  535  openssl rsautl -sign -inkey rsa.key -in fichier.txt.sha1 -out fichier.txt.sign
+  536  ls
+  537  [1:47 PM] BOUMANS Jimmy
+  538
+  539  openssl rsautl -sign -inkey rsa.key -in fichier.txt.sha1 -out fichier.txt.sign
+  540* openssl rsautl -sign -inkey jeje.key -in jeje_file.sha256 -out jeje_file.si
+  541  ls
+  542  cat jeje_file.sig
+  543  ls
+  544  openssl rsault -verify -pubin -inkey public.pub -in florian_signe.crypt.sig -out florian_signe.crypt.sig
+  545  openssl rsautl -verify -pubin -inkey public.pub -in florian_signe.crypt.sig -out florian_signe.crypt.sig
+  546  openssl rsautl -verify -pubin -inkey public.pub -in florian_signe.crypt.sig -out florian_signe.crypt.sig
+  547  ls
+  548  ls
+  549  openssl rsautl -verify -pubin -inkey public.pub -in signe_florian.crypt.sig -out florian_signe.crypt.verify
+  550  ls -lha
+  551  openssl dgst -sha256 -out florian.sha256
+  552  ls
+  553  cat florian.sha256
+  554  rm florian.sha256
+  555  openssl dgst -sha256 florian_signe.crypt
+  556  ls -lha
+  557  cat florian_signe.crypt.verify
+  558  ls
+  559  openssl rsautl -verify -pubin -inkey public.pub -in florian_signe.crypt.sig -out florian_signe.crypt.verify
+  560  openssl rsautl -verify -pubin -inkey public.pub -in florian_signe.crypt.sig -out florian_signe2.crypt.verify
+  561  openssl rsautl -verify -pubin -inkey public.pub -in florian_signe.crypt.sig -out florian_signe2.crypt.verify
+  562  ls
+  563  openssl dgst -sha256 florian_signe.crypt
+  564  cat florian_signe.crypt.verify
+  565  ls
+  566  rm florian_signe.crypt.verify
+  567  ls
+  568  openssl rsautl -verify -pubin -inkey public.pub -in signe_florian.crypt.sig -out florian_signe.crypt.verify
+  569  cat florian_signe.crypt.verify
+  570*
+  571  cat florian_signe.crypt.verify
+  572  openssl dgst -sha256 signe_florian.crypt
+  573  openssl dgst -sha256 chiffre_florian.crypt
+  574  cat florian_signe.crypt.verify ls
+  575  ls
+  576  openssl rsautl -verify -pubin -inkey public.pub -in signatureFLORIAN.sig -out FLORIAN.verify
+  577  ls
+  578  cat FLORIAN.verify
+  579  openssl dgst -sha256 crypteFLORIAN.crypt
+  580*
+  581  ls
+  582  history

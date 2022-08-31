@@ -1,0 +1,29 @@
+%* This is an unofficial template for a title page for thesis dissertation at SLU and was created by Theodorik Leao, 2020. It uses the SLU thesis template v3, available for word at: https://www.slu.se/site/bibliotek/publicera-och-analysera/registrera-och-publicera/dokumentmallar/
+
+
+\documentclass[a4]{article}
+
+% Standard margins for SLU is 3.5 cm on each side. Add this code if desired:
+\usepackage[a4paper, left=3.5cm,right=3.5cm]{geometry}
+
+% Necessary packages for the titlepage:
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{graphicx}
+\usepackage{newtxtext}
+\usepackage{float}
+\usepackage{comment}
+% This command changes the font style where SLU promotes Arial
+\newenvironment{myfont}{\fontfamily{phv}\selectfont}{\par}
+
+
+% Begin document:
+\begin{document}
+
+% Add title page:
+\include{titlePageSLU}
+
+% Add ICDC intro page
+\include{icdc}
+
+\end{document}

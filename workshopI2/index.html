@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Horizontal Bar Chart</title>
+<script src="../../node_modules/chart.js/dist/Chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.3/dist/Chart.min.js"> 
+</script>
+<script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin- 
+labels/src/chartjs-plugin-labels.js"></script>
+</head>
+
+<body>
+<canvas id="bar-chart" width="800" height="450"></canvas>
+
+<div id="value">100</div>
+
+<Script>
+
+
+// Bar chart
+new Chart(document.getElementById("bar-chart"), {
+type: 'bar',
+data: {
+  labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+
+  datasets: [
+    {
+      label: "Population (millions)",
+      backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+      data: [2478,5267,734,784,433]
+    }
+  ]
+},
+
+
+
+options: 
+{
+    plugins: {
+        labels: 
+        {
+            render: 'value',
+
+            fontSize: 20,
+        }
+    },
+    scales: {
+      xAxes: [{
+        display: false
+      }],
+      yAxes: [{
+        display: false
+      }],
+    },
+    tooltips: { enabled: true},
+    hover: {animationDuration: 1},
+
+}
+});
+
+</script>
+</body>
+
+</html>

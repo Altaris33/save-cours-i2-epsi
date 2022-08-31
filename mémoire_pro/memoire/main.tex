@@ -1,0 +1,30 @@
+\documentclass[a4paper]{article}
+
+% Standard margins for SLU is 3.5 cm on each side. Add this code if desired:
+\usepackage[a4paper, left=3.5cm,right=3.5cm]{geometry}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{graphics}
+\usepackage{newtxtext}
+\usepackage{float}
+\usepackage{comment}
+
+% environment for modifying font style
+\newenvironment{myfont}{\fontfamily{phv} \selectfont}{\par}
+%\usepackage{lmodern}
+
+\begin{document}
+
+% -------------------------------------------------------
+% importing another tex file
+% importing Title Page
+%--------------------------------------------------------
+\include{titlePageMemoir}
+
+\section{Section 1 Test}
+
+Test text...
+
+
+\end{document}
